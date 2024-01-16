@@ -1,8 +1,8 @@
 new Vue({
     el: '#app',
     data: {
-        name: 'Your Name',
-        introduction: 'Short introduction about yourself and your interests in software engineering.',
+        name: 'Meico T. Hsiao',
+        introduction: 'C++ programmer',
         projects: [
             { title: 'Project 1', description: 'Description for Project 1' },
             // Add more projects as needed
