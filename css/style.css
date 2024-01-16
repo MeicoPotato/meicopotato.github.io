@@ -1,39 +1,10 @@
-/* Basic styling; you can customize this according to your preference */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-}
-
-header {
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
-
-header a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-header ul {
+    background-color: #111;
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
     padding: 0;
-    list-style: none;
-}
-
-header ul li {
-    display: inline;
-}
-
-main {
-    padding: 15px;
-}
-
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #333;
     color: #fff;
+    overflow-x: hidden;
 }
-

@@ -1,0 +1,63 @@
+/* Modal Backdrop */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0,0,0,0.6); /* Black with opacity */
+    align-items: center;
+    justify-content: center;
+  /*  display: flex; /* Center the modal content */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #c0c0c0; /* Classic gray background */
+    border: 3px solid #000; /* Black border for window outline */
+    image-rendering: pixelated; /* For that crisp pixel art look */
+    position: relative; /* Position relative for absolute child elements */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 80%; /* Could be more or less, depending on screen size */
+    max-width: 640px; /* Maximum width */
+}
+
+/* Modal Header */
+.modal-header {
+    background-color: #000080; /* Classic blue header */
+    color: #ffffff;
+    padding: 5px;
+    font-size: 12px; /* Small font size for pixel effect */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.window-title {
+    display: inline-block;
+}
+
+.window-controls {
+    display: inline-block;
+}
+
+.window-controls img {
+    height: 16px; /* Example size, adjust as needed */
+    width: 16px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.window-controls img:hover {
+    background-color: #ff0000; /* Red background on hover for close button */
+}
+
+.modal-body {
+padding: 10px;
+}
+
+.modal-footer {
+padding: 10px;
+}

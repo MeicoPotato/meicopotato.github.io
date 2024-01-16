@@ -1,0 +1,23 @@
+#computer-container {
+    position: relative;
+    width: 150vw;
+    height:150vh;
+    /* Add more styles as needed */
+}
+
+#screen-content {
+    display: none; /* Initially hidden */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    transition: all 1s ease-out;
+    background: #fff; /* Temporary background for visibility */
+}
+
+/* This class will be added dynamically via JavaScript */
+.is-zoomed {
+    display: block; /* Show content */
+}

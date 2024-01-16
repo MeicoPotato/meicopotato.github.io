@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 16px;
+    padding-top: 50px; /* Adjust based on your header height */
+}
+
+.folder {
+    background: url('../assets/pixel-art/folder-icon.png') no-repeat center center;
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    image-rendering: pixelated;
+}
+
+.folder-label {
+    width: 100%;
+    position: absolute;
+    bottom: -20px; /* Adjust based on your preference */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 8px;
+    color: #fff;
+}
